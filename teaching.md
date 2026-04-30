@@ -13,7 +13,7 @@ permalink: /teaching/
 
 ## Mentoring
 
-The lab provides structured early guidance in task design, Bayesian and RCP modeling, and data
+The lab provides structured early guidance in task design, modeling within the RCP framework, and data
 analysis, while gradually giving students autonomy to formulate and test their own ideas.
 
 Students are encouraged to work across behavior, computation, and theory, and to build projects that

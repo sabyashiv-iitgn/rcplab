@@ -8,10 +8,10 @@ permalink: /research/
 # Research
 
 The RCP Lab studies natural behavior through the Resource-rational Context-dependent POMDP
-framework. The central question is how agents act adaptively when the world is only partially
+framework (RCP Framework). The central question is how agents act adaptively when the world is only partially
 observable, goals or environments can change, and optimal solutions are computationally expensive.
 
-## Framework
+## RCP Framework
 
 <img class="research-figure" src="{{ '/resources/research_proposal.png' | relative_url }}" alt="RCP framework">
 
