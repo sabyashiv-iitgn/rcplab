@@ -38,6 +38,4 @@ adaptive inference system.
 
 ## Applications
 
-The research program is designed to generate testable neural predictions, clinical markers for altered
-inference and control, machine-learning benchmarks for active sensing and continual learning, and
-industrial applications in robotics and adaptive control.
+The research program is designed to generate testable neural predictions, behavioral differences in clinical populations, and robust machine-learning algorithms.
