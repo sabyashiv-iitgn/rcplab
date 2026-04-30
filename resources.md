@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resources
-description: Public materials from BRAIN Lab.
+description: Public materials from RCP Lab.
 permalink: /resources/
 ---
 
@@ -10,7 +10,7 @@ permalink: /resources/
 <section class="resource-item">
   <h2>Research Proposal</h2>
   <p>
-    A six-page overview of the BRAIN Lab research vision, five-year plan, mentorship approach,
+    A six-page overview of the RCP Lab research vision, five-year plan, mentorship approach,
     predictions, applications, and references.
   </p>
   <p><a class="button" href="{{ site.proposal_pdf | relative_url }}">Download PDF</a></p>
@@ -18,7 +18,7 @@ permalink: /resources/
 
 <section class="resource-item">
   <h2>Lab Logo</h2>
-  <p>The current BRAIN Lab logo used throughout this website.</p>
+  <p>The current RCP Lab logo used throughout this website.</p>
   <p><a class="button" href="{{ site.logo | relative_url }}">Open logo</a></p>
 </section>
 

@@ -1,6 +1,6 @@
-# BRAIN Lab Website
+# RCP Lab Website
 
-This repository contains the GitHub Pages site for BRAIN Lab.
+This repository contains the GitHub Pages site for RCP Lab.
 
 ## Editing Content
 
@@ -21,9 +21,9 @@ The logo and research proposal live in `resources/`.
 The site uses Jekyll, which GitHub Pages builds automatically. Set GitHub Pages to deploy from the
 main branch and repository root unless your repository settings require a different branch.
 
-For local preview, install the GitHub Pages gem bundle and serve the site:
+For local preview, install the Jekyll bundle and serve the site:
 
 ```sh
-bundle install
-bundle exec jekyll serve
+/opt/homebrew/opt/ruby@3.3/bin/bundle install
+/opt/homebrew/opt/ruby@3.3/bin/bundle exec jekyll serve
 ```

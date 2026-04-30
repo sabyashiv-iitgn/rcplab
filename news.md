@@ -1,7 +1,7 @@
 ---
 layout: default
 title: News
-description: Updates from BRAIN Lab.
+description: Updates from RCP Lab.
 permalink: /news/
 ---
 

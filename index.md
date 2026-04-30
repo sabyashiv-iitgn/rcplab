@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Home
-description: BRAIN Lab studies natural behavior through resource-rational adaptive inference.
+description: RCP Lab studies natural behavior through resource-rational adaptive inference.
 ---
 
 <section class="hero">
   <div>
     <p class="kicker">Behavior as Resource-rational Adaptive INference</p>
-    <h1>BRAIN Lab</h1>
+    <h1>RCP Lab</h1>
     <p>
       We study the computations that support natural behavior: how people perceive uncertain scenes,
       learn changing structure, and plan actions under resource constraints.
@@ -21,7 +21,7 @@ description: BRAIN Lab studies natural behavior through resource-rational adapti
       <a class="button" href="{{ site.proposal_pdf | relative_url }}">Research proposal PDF</a>
     </div>
   </div>
-  <img src="{{ site.logo | relative_url }}" alt="BRAIN Lab logo">
+  <img src="{{ site.logo | relative_url }}" alt="RCP Lab logo">
 </section>
 
 <section class="section-grid" aria-label="Research themes">
@@ -41,6 +41,6 @@ description: BRAIN Lab studies natural behavior through resource-rational adapti
 
 ## Current Focus
 
-BRAIN Lab uses a Resource-rational Context-dependent POMDP framework to study how perception,
+RCP Lab uses a Resource-rational Context-dependent POMDP framework to study how perception,
 learning, and planning interact. The first research program focuses on three pairwise interactions:
 perception and learning, perception and planning, and learning and planning.

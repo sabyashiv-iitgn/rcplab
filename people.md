@@ -1,14 +1,14 @@
 ---
 layout: default
 title: People
-description: Members of BRAIN Lab.
+description: Members of RCP Lab.
 permalink: /people/
 ---
 
 # People
 
 <section class="person">
-  <img src="{{ site.logo | relative_url }}" alt="BRAIN Lab logo">
+  <img src="{{ site.logo | relative_url }}" alt="RCP Lab logo">
   <div>
     <h2>Sabyasachi Shivkumar, PhD</h2>
     <p class="metadata">Principal Investigator</p>

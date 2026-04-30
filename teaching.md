@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Teaching
-description: Courses and mentoring in BRAIN Lab.
+description: Courses and mentoring in RCP Lab.
 permalink: /teaching/
 ---
 

@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Research
-description: Research themes and current aims for BRAIN Lab.
+description: Research themes and current aims for RCP Lab.
 permalink: /research/
 ---
 
 # Research
 
-The BRAIN Lab studies natural behavior through the Resource-rational Context-dependent POMDP
+The RCP Lab studies natural behavior through the Resource-rational Context-dependent POMDP
 framework. The central question is how agents act adaptively when the world is only partially
 observable, goals or environments can change, and optimal solutions are computationally expensive.
 
