@@ -1,0 +1,15 @@
+<header class="site-header">
+  <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
+    <img src="{{ site.logo | relative_url }}" alt="{{ site.title }} logo">
+    <span>
+      <strong>{{ site.title }}</strong>
+      <small>{{ site.description }}</small>
+    </span>
+  </a>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    {% for item in site.nav %}
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+    {% endfor %}
+  </nav>
+</header>

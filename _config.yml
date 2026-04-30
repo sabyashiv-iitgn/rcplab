@@ -1,0 +1,29 @@
+title: BRAIN Lab
+description: Behavior as Resource-rational Adaptive INference
+url: ""
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+
+logo: /resources/lab_logo.001.png
+proposal_pdf: /resources/Research_statement_iitgn.pdf
+
+collections:
+  posts:
+    output: true
+
+nav:
+  - title: People
+    url: /people/
+  - title: Research
+    url: /research/
+  - title: Teaching
+    url: /teaching/
+  - title: Resources
+    url: /resources/
+  - title: News
+    url: /news/
+
+exclude:
+  - README.md
