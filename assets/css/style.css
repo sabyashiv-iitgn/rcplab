@@ -37,10 +37,16 @@ img {
 }
 
 .site-header {
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+}
+
+.site-header-inner {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 28px 24px 18px;
-  border-bottom: 1px solid var(--line);
+  min-height: 82px;
+  padding: 10px 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -50,48 +56,43 @@ img {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 14px;
   text-decoration: none;
+  flex: 0 0 auto;
 }
 
 .brand img {
-  width: 66px;
-  height: 50px;
+  width: 150px;
+  height: 62px;
   object-fit: contain;
-}
-
-.brand strong,
-.brand small {
   display: block;
-}
-
-.brand strong {
-  font-size: 1rem;
-  letter-spacing: 0;
-}
-
-.brand small {
-  color: var(--muted);
-  font-size: 0.78rem;
-  line-height: 1.25;
 }
 
 .site-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 18px;
+  gap: 4px;
   justify-content: flex-end;
-  font-size: 0.92rem;
+  align-items: stretch;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0;
 }
 
 .site-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 0 14px;
+  color: #ffffff;
   text-decoration: none;
-  border-bottom: 1px solid transparent;
+  border: 1px solid transparent;
 }
 
 .site-nav a:hover,
-.site-nav a:focus {
-  border-bottom-color: currentColor;
+.site-nav a:focus,
+.site-nav a[aria-current="page"] {
+  background: #ffffff;
+  color: #000000;
 }
 
 .content {
@@ -256,7 +257,7 @@ ol {
     font-size: 16px;
   }
 
-  .site-header,
+  .site-header-inner,
   .hero,
   .person {
     display: block;
@@ -264,7 +265,12 @@ ol {
 
   .site-nav {
     justify-content: flex-start;
-    margin-top: 18px;
+    margin-top: 10px;
+  }
+
+  .site-nav a {
+    min-height: 38px;
+    padding: 0 10px;
   }
 
   .hero img {
