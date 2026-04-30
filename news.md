@@ -7,4 +7,4 @@ permalink: /news/
 
 # News
 
-- RCP Lab website.
+- RCP Lab website launched!

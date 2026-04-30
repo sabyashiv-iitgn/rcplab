@@ -16,7 +16,7 @@ permalink: /people/
     <a class="icon-link" href="https://scholar.google.co.in/citations?user=fk0jDdkAAAAJ&hl=en" aria-label="Google Scholar profile" title="Google Scholar">G</a>
   </p>
   <p>
-    Sabyasachi studies perception, learning, planning, and resource-rational inference in natural
+    Sabyasachi studies perception, learning, planning, contextual inference and resource-rational inference in natural
     behavior using behavioral experiments and computational models.
   </p>
 </section>
