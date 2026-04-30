@@ -8,7 +8,7 @@ description: RCP Lab studies natural behavior through resource-rational adaptive
   <div>
     <h1>Resource-rational Context-dependent POMDP Lab</h1>
     <p class="location">
-      Department of Brain and Cognitive Sciences<br>
+      Department of Cognitive and Brain Sciences<br>
       IIT Gandhinagar
     </p>
     <p class="lede">
