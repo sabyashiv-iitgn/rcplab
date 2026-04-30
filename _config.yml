@@ -7,7 +7,6 @@ markdown: kramdown
 permalink: pretty
 
 logo: /assets/img/lab-logo-cropped.png
-proposal_pdf: /resources/Research_statement_iitgn.pdf
 
 collections:
   posts:
@@ -27,3 +26,5 @@ nav:
 
 exclude:
   - README.md
+  - resources/Research_statement_iitgn.pdf
+  - resources/AI_CG_Course_Proposal_Sabya.pdf

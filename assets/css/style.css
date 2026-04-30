@@ -102,11 +102,8 @@ img {
 }
 
 .hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(220px, 0.65fr);
-  gap: 42px;
-  align-items: center;
-  padding-bottom: 42px;
+  max-width: 900px;
+  padding-bottom: 46px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -123,6 +120,12 @@ img {
   margin: 0 0 20px;
   color: #262626;
   font-size: 1.12rem;
+}
+
+.location {
+  color: #111111;
+  font-size: 1.05rem;
+  line-height: 1.45;
 }
 
 .hero img {
@@ -173,6 +176,31 @@ img {
 .resource-item {
   border-top: 1px solid var(--line);
   padding-top: 18px;
+}
+
+.resource-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(280px, 1.1fr);
+  gap: 36px;
+  align-items: start;
+}
+
+.resource-layout aside {
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+}
+
+.resource-layout aside img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--line);
+}
+
+.research-figure {
+  float: right;
+  width: min(48%, 460px);
+  margin: 0 0 24px 32px;
+  border: 1px solid var(--line);
 }
 
 h1,
@@ -233,6 +261,54 @@ ol {
   background: var(--soft);
 }
 
+.person-profile {
+  display: block;
+}
+
+.person-profile::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.person-profile img {
+  float: left;
+  width: 220px;
+  margin: 0 28px 18px 0;
+}
+
+.person-profile h2 {
+  margin-top: 0;
+}
+
+.person-role {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: 1px solid var(--line);
+  color: var(--text);
+  font-size: 0.76rem;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.icon-link:hover,
+.icon-link:focus {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+}
+
 .metadata {
   margin: 0 0 10px;
   color: var(--muted);
@@ -257,33 +333,51 @@ ol {
     font-size: 16px;
   }
 
-  .hero,
   .person {
     display: block;
   }
 
   .site-header-inner {
     min-height: 74px;
-    gap: 14px;
+    gap: 8px;
     padding: 8px 16px;
   }
 
   .brand img {
-    width: 96px;
-    height: 50px;
+    width: 80px;
+    height: 48px;
   }
 
   .site-nav {
     flex: 1 1 auto;
     justify-content: flex-end;
-    gap: 2px 8px;
+    gap: 2px 4px;
     margin-top: 0;
-    font-size: 0.78rem;
+    font-size: 0.72rem;
   }
 
   .site-nav a {
     min-height: 30px;
-    padding: 0 4px;
+    padding: 0 3px;
+  }
+
+  .person {
+    display: grid;
+    grid-template-columns: 120px minmax(0, 1fr);
+    gap: 18px;
+  }
+
+  .person-profile {
+    display: block;
+  }
+
+  .person img {
+    width: 120px;
+  }
+
+  .person-profile img {
+    width: 200px;
+    margin: 0 20px 14px 0;
   }
 
   .hero img {
@@ -294,7 +388,23 @@ ol {
     grid-template-columns: 1fr;
   }
 
+  .resource-layout {
+    grid-template-columns: 1fr;
+  }
+
   .person img {
     margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .research-figure {
+    float: none;
+    width: 100%;
+    margin: 0 0 24px;
+  }
+
+  .person-profile img {
+    width: 140px;
   }
 }

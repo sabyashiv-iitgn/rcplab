@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Research
-description: Research themes and current aims for RCP Lab.
+description: Research framework for RCP Lab.
 permalink: /research/
 ---
 
@@ -13,50 +13,31 @@ observable, goals or environments can change, and optimal solutions are computat
 
 ## Framework
 
+<img class="research-figure" src="{{ '/resources/research_proposal.png' | relative_url }}" alt="RCP framework">
+
 Natural behavior depends on three linked computations:
 
 - **Perception:** inferring hidden causes of sensory observations.
 - **Learning:** updating internal models from feedback and experience.
 - **Planning:** choosing actions that maximize expected future utility.
 
-We study these computations as part of one adaptive inference system, constrained by context,
-uncertainty, and limited computational resources.
+Behavior requires these computations in order to tackle three central challenges that the brain faces:
 
-## Aim 1: Perception and Learning
+- **Behavior under uncertainty:** the world is only partially observable, so agents must infer hidden
+  states from noisy and incomplete observations. POMDPs provide a formal language for studying how
+  beliefs guide action under uncertainty.
+- **Behavior under non-stationarity:** environments, goals, and task rules change over time, so
+  agents must infer which context is active and adapt their internal models accordingly. Contextual
+  inference provides a way to study flexible behavior in changing environments.
+- **Behavior under limited computational resources:** exact solutions are often too expensive, so
+  agents must balance performance with computational, energetic, and representational costs.
+  Resource-rational models ask which approximations are useful, and why.
 
-Natural scenes contain many objects whose depth, support, grouping, and motion relationships must be
-inferred from noisy cues. This aim asks how learned object relationships guide perception, how inferred
-perceptual structure guides learning, and how these processes scale as scenes become more complex.
-
-The work uses multi-cue scenes and structure-dependent illusions to test how new statistical
-expectations shape percepts, and how cue agreement or conflict changes the learning of latent
-relations.
-
-## Aim 2: Perception and Planning
-
-Perception provides the beliefs on which actions rely, but actions can also refine those beliefs. This
-aim studies reaching and control tasks where targets or cursors are hidden, forcing participants to
-integrate uncertain evidence and choose actions that can reduce uncertainty.
-
-The long-term goal is to understand how people jointly infer hidden state, context, and the value of
-information-seeking actions.
-
-## Aim 3: Learning and Planning
-
-Learning builds the internal models that support action, and planning shapes the future experience
-from which learning proceeds. This aim studies structured motor environments with multiple local
-contexts and changing dynamics.
-
-The work asks how learned memories are composed for flexible planning, how active exploration
-accelerates learning, and how people detect and localize changes in a structured environment.
+The lab brings these ideas together to study how perception, learning, and planning interact as one
+adaptive inference system.
 
 ## Applications
 
 The research program is designed to generate testable neural predictions, clinical markers for altered
 inference and control, machine-learning benchmarks for active sensing and continual learning, and
 industrial applications in robotics and adaptive control.
-
-<p class="note">
-  The detailed six-page research proposal is available here:
-  <a href="{{ site.proposal_pdf | relative_url }}">Research_statement_iitgn.pdf</a>.
-</p>

@@ -7,28 +7,33 @@ permalink: /people/
 
 # People
 
-<section class="person">
-  <img src="{{ site.logo | relative_url }}" alt="RCP Lab logo">
-  <div>
-    <h2>Sabyasachi Shivkumar, PhD</h2>
-    <p class="metadata">Principal Investigator</p>
-    <p>
-      Sabyasachi studies perception, learning, planning, and resource-rational inference in natural
-      behavior using behavioral experiments and computational models.
-    </p>
-  </div>
+<section class="person person-profile">
+  <img src="{{ '/resources/profile_pic.JPG' | relative_url }}" alt="Sabyasachi Shivkumar">
+  <h2>Sabyasachi Shivkumar, PhD</h2>
+  <p class="metadata person-role">
+    <span>Principal Investigator</span>
+    <a class="icon-link" href="mailto:sabyashiv@iitgn.ac.in" aria-label="Email Sabyasachi Shivkumar" title="Email">@</a>
+    <a class="icon-link" href="https://scholar.google.co.in/citations?user=fk0jDdkAAAAJ&hl=en" aria-label="Google Scholar profile" title="Google Scholar">G</a>
+  </p>
+  <p>
+    Sabyasachi studies perception, learning, planning, and resource-rational inference in natural
+    behavior using behavioral experiments and computational models.
+  </p>
 </section>
 
 ## Joining The Lab
 
-We welcome students interested in cognitive science, computational neuroscience, behavioral
-experiments, Bayesian modeling, reinforcement learning, motor control, and perception.
+We are looking for people at all levels who are interested in cognitive science, computational
+neuroscience, behavioral experiments, Bayesian modeling, reinforcement learning, motor control, and
+perception.
 
-M.Sc. students can take on focused projects such as building behavioral tasks, running controlled
-experiments, or validating model components. Ph.D. students can lead full research threads that
-connect theory, modeling, and experimentation.
+- **Postdocs:** send an email with your research interests and CV to
+  <a href="mailto:sabyashiv@iitgn.ac.in">sabyashiv@iitgn.ac.in</a>.
+- **Ph.D. students:** see the
+  <a href="https://cogs.iitgn.ac.in/">Department of Cognitive and Brain Sciences homepage</a>
+  for admissions information.
+- **Master's students:** see the
+  <a href="https://cogs.iitgn.ac.in/">Department of Cognitive and Brain Sciences homepage</a>
+  for admissions information and final-year thesis opportunities.
 
 ## Current Members
-
-This section is intentionally Markdown-editable. Add new members as short entries with a name, role,
-research interests, and optional links.

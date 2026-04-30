@@ -10,11 +10,11 @@ Most site content is plain Markdown:
 - `people.md` - lab members and joining information
 - `research.md` - research overview
 - `teaching.md` - courses and mentoring
-- `resources.md` - proposal, logo, and public materials
+- `resources.md` - course materials, logo, and public materials
 - `news.md` - news listing
 - `_posts/` - dated news posts
 
-The logo and research proposal live in `resources/`.
+The logo and other public assets live in `resources/`.
 
 ## GitHub Pages
 
