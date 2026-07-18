@@ -1,0 +1,80 @@
+# The homepage research matrix is generated from this file.
+# Edit a title/summary here, or change a URL after adding a fuller research page.
+columns:
+  - solution: Perception
+    challenge: Inferring beliefs from impoverished observations
+    class: perception
+  - solution: Planning
+    challenge: Choosing actions with uncertain consequences
+    class: planning
+  - solution: Learning
+    challenge: Adapting internal models from experience
+    class: learning
+
+rows:
+  - principle: POMDP
+    class: pomdp
+    challenge: Behavior under uncertainty
+    description: Acting when the world is only partially observable.
+    cells:
+      - title: Inferring hidden states
+        summary: How observations become beliefs about the world.
+        overview_url: /research/perception-pomdp/
+        stories:
+          - title: Beliefs under uncertainty
+            type: Research story
+            url: /stories/beliefs-under-uncertainty/
+      - title: Planning under uncertainty
+        summary: How beliefs guide sequences of actions.
+        overview_url: /research/planning-pomdp/
+        stories: []
+      - title: Learning world models
+        summary: How feedback updates states, actions, and outcomes.
+        overview_url: /research/learning-pomdp/
+        stories: []
+  - principle: Contextual inference
+    class: context
+    challenge: Behavior in a changing world
+    description: Identifying which task or environment is currently active.
+    cells:
+      - title: Context shapes perception
+        summary: Inferring the source that generated an observation.
+        overview_url: /research/perception-context/
+        stories:
+          - title: Implicit contextual inference
+            type: Research story
+            url: /stories/implicit-contextual-inference/
+      - title: Context shapes planning
+        summary: Selecting the right policy when goals or rules change.
+        overview_url: /research/planning-context/
+        stories:
+          - title: Context-dependent planning
+            type: Research story
+            url: /stories/context-dependent-planning/
+      - title: Context shapes learning
+        summary: Curriculum, retention, and interference across tasks.
+        overview_url: /research/learning-context/
+        stories:
+          - title: Curriculum and retention
+            type: Research story
+            url: /stories/curriculum-and-retention/
+  - principle: Resource rationality
+    class: resource
+    challenge: Behavior with finite computational resources
+    description: Choosing useful approximations under limited resources.
+    cells:
+      - title: Efficient perception
+        summary: Allocating precision when time and information are limited.
+        overview_url: /research/perception-resources/
+        stories:
+          - title: Confidence and adaptive precision
+            type: Research story
+            url: /stories/confidence-and-precision/
+      - title: Efficient planning
+        summary: Trading computation against the value of a better action.
+        overview_url: /research/planning-resources/
+        stories: []
+      - title: Efficient learning
+        summary: Deciding what to store, update, or forget.
+        overview_url: /research/learning-resources/
+        stories: []

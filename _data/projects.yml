@@ -1,0 +1,161 @@
+# Papers classified using research/paper_classification.pdf. A paper may belong
+# to several RCP intersections and therefore appear under multiple selections.
+- title: Hierarchical motion perception as causal inference
+  authors: Sabyasachi Shivkumar, Gregory C. DeAngelis, and Ralf M. Haefner
+  year: 2025
+  summary: A hierarchical Bayesian model, constrained by human psychophysics, explains motion integration and segmentation through causal inference over latent reference frames and offers a normative account of key Gestalt principles.
+  link: https://doi.org/10.1038/s41467-025-58797-0
+  link_label: Read the paper ↗
+  tags: [perception, context, resource, theory, behavior]
+
+- title: Aberrant causal inference and a compensatory mechanism in Autism Spectrum Disorder
+  authors: Jean-Paul Noel*, Sabyasachi Shivkumar*, Kalpana Dokka*, Ralf M. Haefner†, and Dora E. Angelaki†
+  year: 2022
+  summary: People with Autism Spectrum Disorder showed a stronger implicit tendency to combine auditory and visual cues but reduced explicit common-cause reports, consistent with a compensatory choice bias.
+  link: https://doi.org/10.7554/eLife.71866
+  link_label: Read the paper ↗
+  tags: [perception, context, behavior, clinical]
+
+- title: Inferring sources of suboptimality in perceptual decision making
+  authors: Sabyasachi Shivkumar, Madeline S. Cappelloni, Ross K. Maddox, and Ralf M. Haefner
+  year: 2025
+  summary: An ideal-observer framework and a causal-inference experiment distinguish biases from approximate computation as separate sources of suboptimal perceptual decisions.
+  status: Manuscript under review
+  link: https://doi.org/10.1101/2022.04.28.489925
+  link_label: Read the preprint ↗
+  tags: [perception, resource, theory, behavior]
+
+- title: Multiple sources of evidence are multiplexed to make a single decision
+  authors: Sabyasachi Shivkumar, Victoria L. Fisher, Michael N. Shadlen, and Daniel M. Wolpert
+  year: 2025
+  summary: Behaviour in a dual-cue motion and colour task is best explained by a parallel single-accumulator architecture that combines evidence without using each cue's trial-by-trial reliability.
+  status: Manuscript under preparation
+  tags: [perception, context, theory, behavior]
+
+- title: Causal inference predicts the transition from integration to segmentation in motion perception
+  authors: Boris Penaloza, Sabyasachi Shivkumar, Gabor Lengyel, Gregory C. DeAngelis, and Ralf M. Haefner
+  year: 2024
+  summary: Human experiments confirm that sensory uncertainty shifts both the perceptual transition between motion integration and segmentation and the point of maximum perceptual variability, as predicted by Bayesian causal inference.
+  link: https://doi.org/10.1038/s41598-024-78820-6
+  link_label: Read the paper ↗
+  tags: [perception, context, behavior]
+
+- title: Task-uninformative visual stimuli improve auditory spatial discrimination in humans
+  authors: Madeline S. Cappelloni, Sabyasachi Shivkumar, Ralf M. Haefner, and Ross K. Maddox
+  year: 2019
+  summary: Spatially aligned visual cues improve auditory spatial discrimination even when the cues contain no task-relevant information, a behavioural benefit not predicted by the ideal Bayesian observer.
+  link: https://doi.org/10.1371/journal.pone.0215417
+  link_label: Read the paper ↗
+  tags: [perception, context, resource, behavior]
+
+- title: Rewarding animals based on their subjective percepts
+  authors: Yelin Dong, Gabor Lengyel, Sabyasachi Shivkumar, Akiyuki Anzai, Grace F. DiRisio, Ralf M. Haefner, and Gregory C. DeAngelis
+  year: 2025
+  summary: A Bayesian online method estimates animals' moment-to-moment perceptual biases from behaviour, allowing rewards to depend on subjective percepts rather than objective stimuli.
+  link: https://doi.org/10.1371/journal.pbio.3002764
+  link_label: Read the paper ↗
+  tags: [perception, pomdp, behavior]
+
+- title: Contributions of visual, dynamic, and kinematic cues to compositional motor learning
+  authors: Sabyasachi Shivkumar, James N. Ingram, Máté Lengyel†, and Daniel M. Wolpert†
+  year: 2024
+  summary: A three-dimensional robotic reaching study shows that people infer partially compositional motor memories from visual, dynamic, and kinematic cues, supporting structured generalisation.
+  status: Manuscript under preparation
+  link: https://sites.google.com/view/mlmc-proceedings/proceedings?authuser=0
+  link_label: Read the conference paper ↗
+  tags: [learning, context, theory, behavior]
+
+- title: Curriculum effects in multitask learning through the lens of contextual inference
+  authors: Sabyasachi Shivkumar, Máté Lengyel†, and Daniel M. Wolpert†
+  year: 2025
+  summary: This review uses contextual inference to unify apparently contradictory curriculum effects across motor, perceptual, and machine learning by relating retention to history-versus-cue weighting and feedback precision.
+  link: https://doi.org/10.1016/j.conb.2025.103123
+  link_label: Read the paper ↗
+  tags: [learning, context, theory, machine]
+
+- title: "Contextual inference: a unified explanation for curriculum effects"
+  authors: Sabyasachi Shivkumar, Daniel M. Wolpert†, and Máté Lengyel†
+  year: 2025
+  summary: The Contextual Inference model predicts that blocked training increases reliance on recent task history over sensory cues, leading to poorer retention when testing uses a random curriculum.
+  status: Manuscript under preparation
+  tags: [learning, context, theory, behavior]
+
+- title: Contextual inference accounts for differences in motor learning under distinct curricula
+  authors: Sabyasachi Shivkumar, James N. Ingram, Máté Lengyel†, and Daniel M. Wolpert†
+  year: 2025
+  summary: Modelling and behavioural data suggest that interleaving null trials within blocked training can improve retention by reducing the predictability supplied by task history.
+  status: Manuscript under preparation
+  link: https://world-wide.org/conf/cosyne-25/contextual-inference-accounts-differences-bcc235f2
+  link_label: View the Cosyne 2025 presentation ↗
+  tags: [learning, context, theory, behavior]
+
+- title: Ouvrai opens access to remote virtual reality studies of human behavioural neuroscience
+  authors: Evan Cesanek, Sabyasachi Shivkumar, James N. Ingram, and Daniel M. Wolpert
+  year: 2024
+  summary: Ouvrai is an open-source end-to-end platform for remote virtual-reality experiments, validated by replicating established motor-learning findings using participants' own VR headsets.
+  link: https://doi.org/10.1038/s41562-024-01834-7
+  link_label: Read the paper ↗
+  tags: [learning, pomdp, behavior]
+
+- title: A confirmation bias due to approximate active inference
+  authors: Ankani Chattoraj*, Sabyasachi Shivkumar*, Yong Soo Ra, and Ralf M. Haefner
+  year: 2021
+  summary: Eye movements used to gather information for perceptual judgements exhibit a confirmation bias toward an observer's current beliefs, consistent with approximate active inference.
+  link: https://escholarship.org/uc/item/9c24c467
+  link_label: Read the conference paper ↗
+  tags: [planning, resource, behavior]
+
+- title: Approximate inference drives biased active evidence accumulation
+  authors: Ankani Chattoraj*, Sabyasachi Shivkumar*, Yong Soo Ra, and Ralf M. Haefner
+  year: 2025
+  summary: An active evidence-accumulation model explains confirmation-biased eye movements as finite sampling within an otherwise optimal Bayesian active-sensing strategy.
+  status: Manuscript under preparation
+  tags: [planning, resource, theory, behavior]
+
+- title: A biologically plausible architecture of the striatum for context-dependent reinforcement learning
+  authors: Sabyasachi Shivkumar, Vignesh Muralidharan, and V. Srinivasa Chakravarthy
+  year: 2017
+  summary: A network model uses the modular anatomy of the striatum within modular reinforcement learning to solve multi-context, context-dependent tasks efficiently.
+  link: https://doi.org/10.3389/fncir.2017.00045
+  link_label: Read the paper ↗
+  tags: [planning, context, theory]
+
+- title: A general method for testing Bayesian models using neural data
+  authors: Gabor Lengyel*, Sabyasachi Shivkumar*, and Ralf M. Haefner
+  year: 2023
+  summary: A general testing framework maps beliefs derived from Bayesian models onto neural activity so that competing models can be compared using neural data.
+  link: https://openreview.net/forum?id=oWJP0NhcY7
+  link_label: View the workshop paper ↗
+  tags: [perception, pomdp, theory, neural]
+
+- title: A probabilistic population code based on neural samples
+  authors: Sabyasachi Shivkumar*, Richard Lange*, Ankani Chattoraj*, and Ralf M. Haefner
+  year: 2018
+  summary: Within a linear-Gaussian model, samples from Bayesian encoding approximate an exponential family with linear sufficient statistics, connecting neural sampling to probabilistic population codes.
+  link: https://proceedings.neurips.cc/paper/2018/hash/5401acfe633e6817b508b84d23686743-Abstract.html
+  link_label: Read the conference paper ↗
+  tags: [perception, resource, theory, neural]
+
+- title: Bayesian causal inference unifies perceptual and neuronal processing of center-surround motion in MT
+  authors: Gabor Lengyel*, Sabyasachi Shivkumar*, Gregory C. DeAngelis, and Ralf M. Haefner
+  year: 2026
+  summary: Bayesian causal inference over latent reference frames explains both human perception and diverse neuronal responses to centre-surround motion in cortical area MT.
+  link: https://doi.org/10.7554/eLife.110621
+  link_label: Read the paper ↗
+  tags: [perception, pomdp, theory, neural]
+
+- title: Bayesian encoding and decoding as distinct perspectives on neural coding
+  authors: Richard D. Lange, Sabyasachi Shivkumar*, Ankani Chattoraj*, and Ralf M. Haefner
+  year: 2023
+  summary: This perspective separates Bayesian encoding - inference inside an internal generative model - from Bayesian decoding, which recovers stimulus information from neural activity.
+  link: https://doi.org/10.1038/s41593-023-01458-6
+  link_label: Read the paper ↗
+  tags: [perception, resource, theory, neural]
+
+- title: On the role of theory and modeling in neuroscience
+  authors: Daniel Levenstein, Veronica A. Alvarez, Asohan Amarasingham, Habiba Azab, Zhe S. Chen, Richard C. Gerkin, Andrea Hasenstaub, Ramakrishnan Iyer, Renaud B. Jolivet, Sarah Marzen, Joseph D. Monaco, Astrid A. Prinz, Salma Quraishi, Fidel Santamaria, Sabyasachi Shivkumar, Matthew F. Singh, Roger Traub, Farzan Nadim, Horacio G. Rotstein, and A. David Redish
+  year: 2023
+  summary: This perspective argues that useful neuroscience theories and models should integrate descriptive accounts of what happens, mechanistic accounts of how it happens, and normative accounts of why.
+  link: https://doi.org/10.1523/JNEUROSCI.1179-22.2022
+  link_label: Read the paper ↗
+  tags: [theory, neural]

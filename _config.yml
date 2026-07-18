@@ -6,9 +6,21 @@ baseurl: "/rcplab"
 markdown: kramdown
 permalink: pretty
 
-logo: /assets/img/lab-logo-cropped.png
+logo: /assets/img/rcp-lab-logo.svg
+logo_mark: /assets/img/rcp-mark.svg
 
 collections:
+  people_profiles:
+    output: false
+  research_areas:
+    output: true
+    permalink: /research/:name/
+  research_stories:
+    output: true
+    permalink: /stories/:name/
+  applications:
+    output: true
+    permalink: /applications/:name/
   posts:
     output: true
 
@@ -23,8 +35,12 @@ nav:
     url: /resources/
   - title: News
     url: /news/
+  - title: Open Positions
+    url: /open-positions/
 
 exclude:
   - README.md
+  - lab-intro/narration-original.m4a
+  - lab-intro/narration_final.m4a
   - resources/Research_statement_iitgn.pdf
   - resources/AI_CG_Course_Proposal_Sabya.pdf

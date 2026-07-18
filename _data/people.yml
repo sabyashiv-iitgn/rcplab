@@ -1,0 +1,20 @@
+# Add a lab member by copying one block and updating these three fields.
+members:
+  - name: Sabyasachi Shivkumar
+    role: Principal Investigator
+    image: /assets/img/people/sabyasachi-shivkumar.jpg
+  - name: Sanket Houde
+    role: PhD student (co-advised with Pratik Mutha)
+    image: /assets/img/people/sanket-houde.jpg
+  - name: Prakriti Singh
+    role: Master's student
+    image: /assets/img/people/prakriti-singh.jpg
+  - name: Smruti Shubhadarshini Behera
+    role: Master's student
+    image: /assets/img/people/smruti-behera.jpg
+  - name: Shrikant Swami
+    role: Master's student
+    image: /assets/img/people/shrikant-swami.png
+  - name: Sahil Sahu
+    role: Master's student
+    image: /assets/img/people/sahil-sahu.jpg

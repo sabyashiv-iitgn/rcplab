@@ -1,13 +1,16 @@
-<header class="site-header">
+<header class="site-header" data-site-header>
   <div class="site-header-inner">
-    <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
-      <img src="{{ site.logo | relative_url }}" alt="{{ site.title }} logo">
-    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span><span class="sr-only">Open navigation</span>
+    </button>
 
-    <nav class="site-nav" aria-label="Main navigation">
-      {% for item in site.nav %}
-        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
-      {% endfor %}
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="{{ '/#home' | relative_url }}" data-section="home">Home</a>
+      <a href="{{ '/#welcome' | relative_url }}" data-section="welcome">Discover RCP</a>
+      <a href="{{ '/#framework' | relative_url }}" data-section="framework">Research subspaces</a>
+      <a href="{{ '/#people' | relative_url }}" data-section="people">People</a>
+      <a href="{{ '/#connect' | relative_url }}" data-section="connect" class="nav-join">Join/Connect</a>
+      <a href="{{ '/#lab-life' | relative_url }}" data-section="lab-life">Lab life</a>
     </nav>
   </div>
 </header>

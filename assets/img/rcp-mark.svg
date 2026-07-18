@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 0 380 320" role="img" aria-labelledby="title desc">
+  <title id="title">RCP Lab mark</title>
+  <desc id="desc">Three POMDPs sit inside a resource-rational context.</desc>
+  <polygon points="330,160 245,307 75,307 -10,160 75,13 245,13" fill="#dcc8e6" stroke="#a07840" stroke-width="8"/>
+  <g>
+    <polygon points="170,47 195,90 145,90" fill="#292a2e"/>
+    <circle cx="170" cy="47" r="7" fill="#4a90d9"/><circle cx="195" cy="90" r="7" fill="#5fae3f"/><circle cx="145" cy="90" r="7" fill="#d93025"/>
+  </g>
+  <g>
+    <polygon points="93,125 129,151 115,193 71,193 57,151" fill="#292a2e"/>
+    <circle cx="93" cy="125" r="7" fill="#4a90d9"/><circle cx="129" cy="176" r="7" fill="#5fae3f"/><circle cx="57" cy="176" r="7" fill="#d93025"/>
+  </g>
+  <g>
+    <polygon points="220,173 254,189 262,225 239,254 201,254 178,225 186,189" fill="#292a2e"/>
+    <circle cx="220" cy="173" r="7" fill="#4a90d9"/><circle cx="262" cy="225" r="7" fill="#5fae3f"/><circle cx="178" cy="225" r="7" fill="#d93025"/>
+  </g>
+</svg>

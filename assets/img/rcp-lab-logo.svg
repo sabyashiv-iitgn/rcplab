@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" role="img" aria-labelledby="title desc">
+  <title id="title">RCP Lab</title>
+  <desc id="desc">Three context-dependent POMDPs, combining perception, planning, and learning, sit within a resource-rational context.</desc>
+  <g>
+    <polygon points="495,265 412.5,407.9 247.5,407.9 165,265 247.5,122.1 412.5,122.1" fill="#dcc8e6" stroke="#a07840" stroke-width="7"/>
+    <g>
+      <polygon points="345,142 369.2,184 320.8,184" fill="#4a4a4a"/>
+      <circle cx="345" cy="142" r="6" fill="#4a90d9"/><circle cx="369.2" cy="184" r="6" fill="#5fae3f"/><circle cx="320.8" cy="184" r="6" fill="#d93025"/>
+    </g>
+    <g>
+      <polygon points="240,236 272.3,259.5 260,297.5 220,297.5 207.7,259.5" fill="#4a4a4a"/>
+      <circle cx="240" cy="236" r="6" fill="#4a90d9"/><circle cx="272.3" cy="280.5" r="6" fill="#5fae3f"/><circle cx="207.7" cy="280.5" r="6" fill="#d93025"/>
+    </g>
+    <g>
+      <polygon points="390,292 419.7,306.3 427,338.5 406.5,364.2 373.5,364.2 353,338.5 360.3,306.3" fill="#4a4a4a"/>
+      <circle cx="390" cy="292" r="6" fill="#4a90d9"/><circle cx="427" cy="338.5" r="6" fill="#5fae3f"/><circle cx="353" cy="338.5" r="6" fill="#d93025"/>
+    </g>
+  </g>
+  <g font-family="Avenir Next, Avenir, Segoe UI, sans-serif" text-anchor="middle">
+    <text x="700" y="215" fill="#22242a" font-size="52" font-weight="800">RCP Lab</text>
+    <text x="700" y="252" fill="#555" font-size="16">Resource-rational Context-dependent POMDP Lab</text>
+    <text x="700" y="286" fill="#8a8f99" font-size="14">how our minds <tspan fill="#4a90d9" font-weight="600">perceive</tspan>, <tspan fill="#5fae3f" font-weight="600">plan</tspan>, and <tspan fill="#d93025" font-weight="600">learn</tspan> in an uncertain,</text>
+    <text x="700" y="306" fill="#8a8f99" font-size="14"><tspan fill="#8e5fae" font-weight="600">changing</tspan> world — with <tspan fill="#a07840" font-weight="600">limited time and energy</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="research-area-page">
+  <p class="eyebrow">{{ page.principle }} · {{ page.domain }}</p>
+  <h1>{{ page.title }}</h1>
+  <p class="research-area-lede">{{ page.description }}</p>
+
+  {{ content }}
+
+  <div class="research-placeholder">
+    <p class="eyebrow">Add example work</p>
+    <p>This page is ready for a project summary, figure, publication, preprint, code, or student contribution.</p>
+  </div>
+  <p><a class="button button-outline" href="{{ '/#framework' | relative_url }}">Back to the RCP framework</a></p>
+</article>

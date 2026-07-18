@@ -1,0 +1,12 @@
+- title: Neural predictions
+  summary: How brains may implement the computations proposed by the RCP framework.
+  url: /applications/neural-predictions/
+  class: neural
+- title: Clinical populations
+  summary: Quantitative accounts of behavioral differences across clinical populations.
+  url: /applications/clinical-applications/
+  class: clinical
+- title: Machine-learning applications
+  summary: Robust, adaptive algorithms inspired by the same computational principles.
+  url: /applications/machine-learning/
+  class: machine
