@@ -234,7 +234,7 @@
         card.className = 'selection-project';
         const eyebrow = document.createElement('p');
         eyebrow.className = 'eyebrow';
-        eyebrow.textContent = 'Research paper';
+        eyebrow.textContent = [project.paper_type || 'Research article', project.year].filter(Boolean).join(' · ');
         const title = document.createElement('h2');
         title.textContent = project.title;
         const authors = document.createElement('p');
@@ -251,10 +251,6 @@
         });
         const meta = document.createElement('div');
         meta.className = 'selection-meta';
-        const status = document.createElement('span');
-        status.className = 'selection-status';
-        status.textContent = project.status || (!project.link ? 'Manuscript under preparation' : '');
-        if (status.textContent) meta.append(status);
         if (project.link) {
           const link = document.createElement('a');
           link.textContent = project.link_label || 'Read the paper ↗';

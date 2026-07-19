@@ -324,8 +324,7 @@ p, ul, ol { max-width: 780px; }
 .selection-project p { margin: 0; }
 .selection-project .selection-authors { margin: -5px 0 14px; color: rgba(255,255,255,.72); font-size: .78rem; font-weight: 650; line-height: 1.45; }
 .selection-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin-top: 22px; }
-.selection-project .selection-meta a, .selection-project .selection-status { margin-top: 0; color: var(--purple-soft); font-size: .7rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
-.selection-project .selection-status { flex-basis: 100%; color: rgba(255,255,255,.48); }
+.selection-project .selection-meta a { margin-top: 0; color: var(--purple-soft); font-size: .7rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
 .selection-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 22px; }
 .selection-tags span { padding: 5px 8px; border: 1px solid rgba(255,255,255,.18); color: rgba(255,255,255,.52); font-size: .62rem; font-weight: 700; text-transform: uppercase; }
 .selection-project a { display: inline-block; margin-top: 22px; color: var(--purple-soft); font-size: .75rem; font-weight: 800; text-transform: uppercase; }
